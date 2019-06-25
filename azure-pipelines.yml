@@ -22,8 +22,6 @@ steps:
 
   - bash: |
       set -ex
-      
-      cp CNAME docs/.vuepress/dist
 
       git clone https://github.com/davisp/ghp-import.git &&
       ./ghp-import/ghp_import.py -n -f -m "Documentation upload" -b mypage &&
