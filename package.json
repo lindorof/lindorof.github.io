@@ -1,0 +1,25 @@
+{
+  "name": "lindorof.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindorof/lindorof.github.io.git"
+  },
+  "author": "lindorof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindorof/lindorof.github.io/issues"
+  },
+  "homepage": "https://github.com/lindorof/lindorof.github.io#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
+    "vuepress": "^1.0.0-rc.1"
+  }
+}

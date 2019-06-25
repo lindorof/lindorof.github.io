@@ -1,0 +1,15 @@
+{
+  "name": "Lindorof",
+  "short_name": "Lindorof",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#444444",
+  "theme_color": "#4DBA87",
+  "icons": [
+    {
+      "src": "/icon/icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ]
+}

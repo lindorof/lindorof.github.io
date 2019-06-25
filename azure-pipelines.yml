@@ -10,10 +10,25 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '10.x'
+    displayName: 'Install Node.js'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  - script: |
+      npm install
+      npm run build
+    displayName: 'npm install and build'
+
+  - bash: |
+      set -ex
+      
+      cp CNAME docs/.vuepress/dist
+
+      git clone https://github.com/davisp/ghp-import.git &&
+      ./ghp-import/ghp_import.py -n -f -m "Documentation upload" -b mypage &&
+      -r https://github.com/lindorof/lindorof.github.io.git &&
+      docs/.vuepress/dist &&
+      echo "新内容更新"
+
+
