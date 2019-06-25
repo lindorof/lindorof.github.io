@@ -24,5 +24,5 @@ steps:
       set -ex
 
       git clone https://github.com/davisp/ghp-import.git &&
-      ./ghp-import/ghp_import.py -n -p -f -m "Documentation upload" -b mypage -r https://github.com/lindorof/lindorof.github.io.git docs/.vuepress/dist &&
+      ./ghp-import/ghp_import.py -n -p -f -m "Documentation upload" -b mypage -r https://lindorof@github.com/lindorof/lindorof.github.io.git docs/.vuepress/dist &&
       echo "新内容更新"
