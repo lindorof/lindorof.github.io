@@ -4,7 +4,7 @@ module.exports = {
     title: 'Lindorof',
     description: "Lindorof's Blog",
     head: [
-      ['link', { rel: 'icon', href: `/favicon.ico` }],
+      ['link', { rel: 'icon', href: '/favicon.ico' }],
       ['link', { rel: 'manifest', href: '/manifest.json' }]
     ],
     serviceWorker: true,
@@ -14,7 +14,7 @@ module.exports = {
     ],
     themeConfig: {
       logo: '/img/logo.jpg',
-      lastUpdated: '时间',
+      lastUpdated: '上次更新',
       search: true,
       searchMaxSuggestions: 20,
       serviceWorker: {
@@ -24,37 +24,12 @@ module.exports = {
         }
       },
       nav: [
-        { text: '建站指南', link: '/guide/' },
-        { text: '感谢VuePress', link: 'https://v1.vuepress.vuejs.org/zh/' },
+        { text: '文章清单', link: '/archives' },
+        { text: '建站指南', link: '/guide' },
         { text: 'GitHub', link: 'https://github.com/lindorof' }
       ],
-      sidebar: [
-        {
-          title: '.NET',
-          children: [
-            '/tsb/'
-          ],
-        },
-        {
-          title: 'C++',
-          children: [
-            {
-              title: '坑爹大全',
-              children: [
-                '/guide/',
-                {
-                  title: 'C++面向对象内存模型分析',
-                  children: [
-                    '/tsbcmp/',
-                    '/tsbcmp/cmp'
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      sidebarDepth: 0,
+      sidebar: 'auto',
+      sidebarDepth: 2,
       displayAllHeaders: true,
     }
 }
