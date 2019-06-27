@@ -2,7 +2,7 @@
 
 ## 前言
 
-本人一直有整理和记录的习惯，包括技术心得、工作内容、生活日记等。
+本人一直有整理和记录的习惯，包括技术心得、工作内容等。
 
 
 
@@ -14,11 +14,11 @@
 
 
 
-偶然的一个机会开始学习 RUST ，用笔记软件记录 「Rust The Book」的学习心得，顺便进行翻译，而初衷也只是为自己记录。而某天看到 [Rust 中文](https://rustlang-cn.org) 大家贡献的文章，突发奇想将自己的心得分享上去，同时将内容迁移为 MD 格式，觉得 MD + Git 才是最合适的。
+偶然的一个机会开始学习 Rust ，用笔记软件记录 「Rust The Book」的学习心得，顺便进行翻译，而初衷也只是为自己记录。而某天看到 [Rust 中文](https://rustlang-cn.org) 大家贡献的文章，突发奇想将自己的心得分享上去，同时将内容迁移为 MD 格式，觉得 MD + Git 才是最合适的。
 
 
 
-所以就到了现在，自己建个 Blog ，以后逐渐将文章迁移过来。整个站点搭建思路和用到的技术都是参考了 [Rust 中文](https://rustlang-cn.org) ，琢磨了几天弄好的。顺便还是要感谢 [Rust 中文](https://rustlang-cn.org) 和里面的  [@krircc](https://github.com/krircc) 大牛的启蒙。
+所以就到了现在，自己建个 Blog ，以后逐渐将文章迁移过来。整个站点搭建思路和用到的技术都是参考了 [Rust 中文](https://rustlang-cn.org) ，琢磨了几天弄好的。顺便还是要感谢 [Rust 中文](https://rustlang-cn.org) 和  [@krircc](https://github.com/krircc) 大牛的启蒙。
 
 
 
