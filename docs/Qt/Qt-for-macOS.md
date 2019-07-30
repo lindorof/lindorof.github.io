@@ -72,7 +72,7 @@ $ xcrun -sdk macosx --show-sdk-path
 
 
 
-###目标平台
+### 目标平台
 
 macOS 上的构建会使用一个叫做 ***weak linking*** 的技术，它让我们可以基于最新平台 SDK 的头文件和 lib 库进行构建，同时又让我们的应用程序可以发布到低版本 SDK 的 macOS 上。当程序在 macOS 运行时，如果该 macOS 的 SDK 版本低于构建时的 SDK 版本，则 Qt 会进行运行时检查，确定某些平台特性是否可用。
 
