@@ -28,6 +28,10 @@
 
 - [「Rust-the-Book」学习心得](https://rustlang-cn.org/users/book-exp/)
 
+## Qt
+
+- [Qt for macOS 翻译](/Qt/Qt-for-macOS)
+
 ## C++
 
 ### 学习心得
