@@ -1,3 +1,5 @@
+let { Rust_Book_Exp } = require ('./category/Rust/Rust_Book_Exp.js')
+
 module.exports = {
     base: '/',
     extend: '@vuepress/theme-default',
@@ -28,8 +30,10 @@ module.exports = {
         { text: '建站指南', link: '/guide' },
         { text: 'GitHub', link: 'https://github.com/lindorof' }
       ],
-      sidebar: 'auto',
-      sidebarDepth: 2,
+      sidebar: {
+        '/Rust/Rust_Book_Exp/': Rust_Book_Exp('Rust_Book_Exp')
+      },
+      sidebarDepth: 0,
       displayAllHeaders: true,
     }
 }

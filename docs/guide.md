@@ -1,3 +1,8 @@
+---
+sidebar: auto
+sidebarDepth: 2
+---
+
 # 建站指南
 
 ## 建站方案

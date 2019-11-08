@@ -1,3 +1,8 @@
+---
+sidebar: auto
+sidebarDepth: 2
+---
+
 # 文章清单
 
 ## 前言
@@ -24,13 +29,15 @@
 
 下面的文章都基于某笔记软件，直接将链接分享出来。迁移以前的内容是个体力活，只能慢慢来，而且最早的 OneNote 里的很多内容都还没迁移。
 
+
+
 ## Rust
 
-- [「Rust-the-Book」学习心得](https://rustlang-cn.org/users/book-exp/)
+- [『RustBook』学习心得](/Rust/Rust_Book_Exp/)
 
 ## Qt
 
-- [Qt for macOS 翻译](/Qt/Qt-for-macOS)
+- [Qt-for-macOS](/Qt/Qt-for-macOS)
 
 ## C++
 

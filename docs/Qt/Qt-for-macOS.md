@@ -1,3 +1,8 @@
+---
+sidebar: auto
+sidebarDepth: 2
+---
+
 # Qt for macOS
 
 > 本文翻译自 Qt 官网的 [Qt for macOS](https://doc.qt.io/qt-5/macos.html) 
