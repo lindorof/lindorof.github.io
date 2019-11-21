@@ -2,7 +2,7 @@
 
 前面的内容对 integration test 的规则进行了总结，下面通过例子，来逐步展示这些规则。
 
-*源码：[lib_integ_test](https://gitee.com/A1G2G1/Rust_The_Book/tree/master/lib_integ_test)*
+*源码：[ch11-4-lib_integ_test](https://gitee.com/lindorof/Rust_The_Book/tree/master/ch11-4-lib_integ_test)*
 
 > 创建 lib crate，名称是 lib_integ_test ，与 unit test 类似，lib.rs 代码如下：
 

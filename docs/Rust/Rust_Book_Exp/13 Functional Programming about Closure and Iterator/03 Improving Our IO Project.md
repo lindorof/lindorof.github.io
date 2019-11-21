@@ -1,6 +1,6 @@
 # 改进 minigrep
 
-*源码：[minigrep_iter](https://gitee.com/A1G2G1/Rust_The_Book/tree/master/minigrep_iter)*
+*源码：[ch13-3-minigrep_iter](https://gitee.com/lindorof/Rust_The_Book/tree/master/ch13-3-minigrep_iter)*
 
 ## 概述
 

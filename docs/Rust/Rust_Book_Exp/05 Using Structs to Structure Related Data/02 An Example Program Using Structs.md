@@ -1,6 +1,6 @@
 # 使用结构体的示例
 
-*源码：[cal_rect](https://gitee.com/A1G2G1/Rust_The_Book/tree/master/cal_rect)*
+*源码：[ch5-2-cal_rect](https://gitee.com/lindorof/Rust_The_Book/tree/master/ch5-2-cal_rect)*
 
 ## 要点
 

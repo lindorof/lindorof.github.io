@@ -1,6 +1,6 @@
 # Cargo 工作空间
 
-*源码：[add-ws](https://gitee.com/A1G2G1/Rust_The_Book/tree/master/add-ws)*
+*源码：[ch14-3-add-ws](https://gitee.com/lindorof/Rust_The_Book/tree/master/ch14-3-add-ws)*
 
 
 

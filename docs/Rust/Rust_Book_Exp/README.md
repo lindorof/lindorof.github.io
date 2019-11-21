@@ -30,7 +30,7 @@
 
 针对部分章节，编写了完整的 project 代码。
 
-代码地址：[Code of The Book](https://gitee.com/A1G2G1/Rust_The_Book.git)
+代码地址：[Code of The Book](https://gitee.com/lindorof/Rust_The_Book.git)
 
 另外，对于涉及到代码 project 的章节，都在章节内容开头标注了对应的 project 名称。
 
