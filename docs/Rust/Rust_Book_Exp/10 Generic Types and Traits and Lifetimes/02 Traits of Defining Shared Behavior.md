@@ -1,4 +1,4 @@
-# 定义 trait
+# 10.2. 定义 trait
 
 什么是 trait :
 - 某种 type 的行为，就是我们能够在该 type 上调用到的方法

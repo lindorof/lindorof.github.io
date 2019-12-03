@@ -1,4 +1,4 @@
-# 猜谜游戏
+# 2. 猜谜游戏
 
 *源码：[ch2-guessing_game](https://gitee.com/lindorof/Rust_The_Book/tree/master/ch2-guessing_game)*
 

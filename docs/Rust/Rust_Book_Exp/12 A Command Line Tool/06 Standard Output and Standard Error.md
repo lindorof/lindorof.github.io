@@ -1,4 +1,4 @@
-# stdout & stderr
+# 12.6. stdout & stderr
 
 ##### 原理
 

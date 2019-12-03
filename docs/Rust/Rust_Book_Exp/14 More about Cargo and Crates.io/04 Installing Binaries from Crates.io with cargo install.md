@@ -1,4 +1,4 @@
-# 安装 Binary Crate
+# 14.4. 安装 Binary Crate
 
 何为 binary crate ：
 

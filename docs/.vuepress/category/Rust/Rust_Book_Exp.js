@@ -4,7 +4,7 @@ exports.Rust_Book_Exp = (title) => {
         '01 Getting Started/01 Getting Started',
         '02 Programming a Guessing Game/01 Programming a Guessing Game',
         {
-            title: '基础',
+            title: '3. 基础',
             collapsable: true,
             children: [
             '03 Common Programming Concepts/01 Variables and Mutability',
@@ -15,7 +15,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '所有权',
+            title: '4. 所有权',
             collapsable: true,
             children: [
             '04 Understanding Ownership/01 What is Ownership',
@@ -24,7 +24,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '结构体',
+            title: '5. 结构体',
             collapsable: true,
             children: [
             '05 Using Structs to Structure Related Data/01 Defining and Instantiating Structs',
@@ -33,7 +33,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '枚举',
+            title: '6. 枚举',
             collapsable: true,
             children: [
             '06 Enums and Pattern Matching/01 Defining an Enum',
@@ -42,7 +42,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '模块',
+            title: '7. 模块',
             collapsable: true,
             children: [
             '07 Modules/01 mod and the Filesystem',
@@ -51,7 +51,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '集合',
+            title: '8. 集合',
             collapsable: true,
             children: [
             '08 Common Collections/01 Vectors',
@@ -61,7 +61,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '错误处理',
+            title: '9. 错误处理',
             collapsable: true,
             children: [
             '09 Error Handling/00 Foreword',
@@ -71,7 +71,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '泛型及生命周期',
+            title: '10. 泛型及生命周期',
             collapsable: true,
             children: [
             '10 Generic Types and Traits and Lifetimes/00 Foreword',
@@ -82,7 +82,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '自动测试',
+            title: '11. 自动测试',
             collapsable: true,
             children: [
             '11 Writing Automated Tests/00 Foreword',
@@ -93,7 +93,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '命令行',
+            title: '12. 命令行',
             collapsable: true,
             children: [
             '12 A Command Line Tool/00 Foreword',
@@ -107,7 +107,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '闭包及迭代器',
+            title: '13. 闭包及迭代器',
             collapsable: true,
             children: [
             '13 Functional Programming about Closure and Iterator/01 Closures that Anonymous Functions can Capture their Environment',
@@ -117,7 +117,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: 'Cargo 和 Crates.io',
+            title: '14. Cargo 和 Crates.io',
             collapsable: true,
             children: [
             '14 More about Cargo and Crates.io/01 Customizing Builds with Release Profiles',
@@ -128,7 +128,7 @@ exports.Rust_Book_Exp = (title) => {
             ]
         },
         {
-            title: '智能指针',
+            title: '15. 智能指针',
             collapsable: true,
             children: [
             '15 Smart Pointers/00 Foreword',

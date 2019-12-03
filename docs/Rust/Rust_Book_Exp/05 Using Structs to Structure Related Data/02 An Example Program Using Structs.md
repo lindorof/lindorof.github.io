@@ -1,4 +1,4 @@
-# 使用结构体的示例
+# 5.2. 使用结构体的示例
 
 *源码：[ch5-2-cal_rect](https://gitee.com/lindorof/Rust_The_Book/tree/master/ch5-2-cal_rect)*
 

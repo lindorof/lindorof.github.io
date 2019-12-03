@@ -1,4 +1,4 @@
-# 发布 Crate
+# 14.2. 发布 Crate
 
 *源码：关于「文档注释」的内容，使用源码 [ch14-2-doc_test](https://gitee.com/lindorof/Rust_The_Book/tree/master/ch14-2-doc_test) ，其它内容使用源码 [ch14-2-pub_use](https://gitee.com/lindorof/Rust_The_Book/tree/master/ch14-2-pub_use)*
 

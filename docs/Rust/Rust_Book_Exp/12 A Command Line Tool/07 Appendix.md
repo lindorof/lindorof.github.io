@@ -1,4 +1,4 @@
-# 附：源码结构
+# 12.7. 附：源码结构
 
 *源码：[ch12-7-minigrep](https://gitee.com/lindorof/Rust_The_Book/tree/master/ch12-7-minigrep)*
 

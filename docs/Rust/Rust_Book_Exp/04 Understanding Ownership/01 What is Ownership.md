@@ -1,4 +1,4 @@
-# 什么是所有权
+# 4.1. 什么是所有权
 
 OwnerShip是Rust独有的一个特性，它保证了内存的安全而不必使用GC。本章讨论OwnerShip以及相关联的一些特性：Borrow，Slice，以及Rust数据在内存中的排布。
 

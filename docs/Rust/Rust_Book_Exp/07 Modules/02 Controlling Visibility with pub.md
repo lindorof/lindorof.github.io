@@ -1,4 +1,4 @@
-# public & private
+# 7.2. public & private
 
 继续上一节的例子：
 1. 在 lib 工程中再创建一个 binary crate

@@ -1,4 +1,4 @@
-# 变量和可变性
+# 3.1. 变量和可变性
 
 该章节内容包括：Variables, Basic Data Types, Functions, Comments, Control Flow.
 
