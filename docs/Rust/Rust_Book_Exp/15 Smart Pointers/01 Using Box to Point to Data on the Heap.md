@@ -41,7 +41,7 @@
 ```rust
 fn main() {
     let b = Box::new(8);
-    println!("{}", b);
+    println!("b = {}", b);
 }
 ```
 
@@ -72,3 +72,135 @@ fn main() {
 
 ## 使用 Recursive Type
 
+什么是 Recursive Type：
+
+- 即递归类型
+- 例如，某个类型中包含多份值，其中某份值又是同样的该类型
+- 先用 *cons list* 来举例说明
+
+什么是 *cons list* ：
+
+- 函数式编程语言中常见的类型，来源于 Lisp
+- 在 Lisp 中，通过 `cons` 函数（即 construct function）来构造一个新的列表，而这两个参数分别是一个单独的值和另一个旧的列表
+- `cons` 函数表达了一种很常见的函数式编程术语：「将 x 与 y 连接」，其中，x 是一个元素，y 是一个列表，连接得到新的列表，x 在该新列表的开头
+- 在 *cons list* 中，每一项都包含两个元素，即当前值和下一项，如果下一项的值是 `Nil` 则表示结束
+- 注意，此处的 `Nil` 是一种代表终止条件的规范名称，与 `null` 是不同的
+
+注意：
+
+- 虽然函数式编程语言中经常使用 `cons list` ，但在 rust 中并不常见
+- 此处使用 `cons list` 只是为了表达递归类型
+- 在 rust 中，要使用列表时，最好的选择是 `Vec<T>`
+
+
+
+### 举例：rust 计算类型大小
+
+说明：
+
+- rust 在编译时，需要计算类型所占用的空间大小
+- 此处先看一个简单的非递归类型，看看 rust 如何计算类型的大小
+
+类型代码：
+
+```rust
+enum Message {
+    Quit,
+    Move { x: i32, y: i32 },
+    Write(String),
+    ChangeColor(i32, i32, i32),
+}
+```
+
+计算规则：
+
+- 该类型是一个 `enum` 类型
+- `Quit` 不需要占用空间
+- `Move` 需要占用两个 `i32` 的空间
+- 以此类推
+- 因此，占用空间最大的那个成员，决定了 `Message` 所占用的空间大小
+
+
+
+### 递归类型的大小无法计算
+
+下面来定义我们的 `cons list` ：
+
+```rust
+enum RList {
+  Cons(i32, RList),
+  Nil,
+}
+```
+
+然后使用该 `cons list` ：
+
+```rust
+use RList::*;
+
+fn main() {
+  let rlist = Cons(1, Cons(2, Cons(3, Nil)));
+}
+```
+
+编译报错，提示如下：
+
+```shell
+error[E0072]: recursive type `RList` has infinite size
+```
+
+错误剖析：
+
+- 错误信息告知，`RList` 类型「有无限的大小」，因为 `RList` 的 `Cons` 成员中，又包含了同样的 `RList` 类型
+- 也就是说，`RList` 的 `Cons` 成员是一种递归类型
+- rust 编译器在计算 `RList` 类型的大小时，看到 `Cons` 成员，发现需要一个 `i32` 空间再加上一个 `RList` 空间
+- 接着为了计算 `RList` 空间，又再次从 `Cons` 成员开始，发现需要一个 `i32` 空间再加上一个 `RList` 空间
+- 就这样，计算无限进行，也就是无限递归下去，如下图所示： 
+
+![01-01](./01-01.png)
+
+
+
+### 在递归类型中使用 `Box<T>` 
+
+解决方式：
+
+- `Box<T>` 本质是一种指针，它的空间大小是固定的，不会因为所指向的具体内容而改变
+- 因此，解决办法是，在 `Cons` 成员中不要直接存放另一个 `RList` ，而是存放一个 `Box` ，再让这个 `Box` 指向另一个 `RList`
+- 这和 C 语言中的单向链表是一个道理，链表中每个元素也会有两份值，一份是当前元素的值，另一份是指向下一个元素的指针；C 语言中指针的空间大小是固定的，对应 rust 中，智能指针 `Box` 的空间大小也是固定的
+
+代码改进：
+
+```rust
+enum RList {
+  Cons(i32, Box<RList>),
+  Nil,
+}
+
+use RList::*;
+
+fn main() {
+  let rlist = Cons(1, 
+  	Box::new(Cons(2,
+  		Box::new(Cons(3,
+  			Box::new(Nil))))));
+}
+```
+
+代码剖析：
+
+- 此时 rust 能够计算 `RList` 的空间大小
+- `Cons` 成员需要一个 `i32` 空间再加上一个 `Box` 的空间
+- `Nil` 成员不需要占用空间
+- 因此，`RList` 的空间大小是 `Cons` 成员的大小，即一个 `i32` 空间再加上一个 `Box` 的空间
+- 此时 `Cons` 成员的空间大小如下图：
+
+![01-02](./01-02.png)
+
+
+
+### 后续内容
+
+- `Box<T>` 是一种智能指针，它实现了 `Deref` 这个 trait ，所以 `Box<T>` 可以被当做引用看待
+- 当 `Box<T>` 离开作用域时，由于 `Box<T>` 实现了 `Drop` 这个 trait ，因此 `Box<T>` 所指向的堆数据也会被自动清除
+- 后续会详细讲解这两个重要的 trait
