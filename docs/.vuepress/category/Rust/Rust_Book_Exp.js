@@ -134,7 +134,8 @@ exports.Rust_Book_Exp = (title) => {
             '15 Smart Pointers/00 Foreword',
             '15 Smart Pointers/01 Using Box to Point to Data on the Heap',
             '15 Smart Pointers/02 Treating Smart Pointers Like Regular References with the Deref Trait',
-            '15 Smart Pointers/03 Running Code on Cleanup with the Drop Trait'
+            '15 Smart Pointers/03 Running Code on Cleanup with the Drop Trait',
+            '15 Smart Pointers/04 Rc the Reference Counted Smart Pointer'
             ]
         }
     ]
