@@ -494,7 +494,7 @@ mod tests {
 - rust 标准库还提供了 `Mutex` ：
 
     1. `Mutex` 也实现了  ***内部可变性*** 
-2. 但是 `Rc` 和 `RefCell` 都只能用于单线程场景
+    2. 但是 `Rc` 和 `RefCell` 都只能用于单线程场景
     3. 而 `Mutex` 可以使用于多线程场景
     4. Chapter16 会详细讨论 `Mutex`
 
