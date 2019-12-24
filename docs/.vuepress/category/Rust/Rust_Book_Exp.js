@@ -139,6 +139,14 @@ exports.Rust_Book_Exp = (title) => {
             '15 Smart Pointers/05 RefCell and the Interior Mutability Pattern',
             '15 Smart Pointers/06 Reference Cycles Can Leak Memory'
             ]
+        },
+        {
+            title: '16. 无畏并发',
+            collapsable: true,
+            children: [
+            '16 Fearless Concurrency/00 Foreword',
+            '16 Fearless Concurrency/01 Using Threads to Run Code Simultaneously'
+            ]
         }
     ]
 }
