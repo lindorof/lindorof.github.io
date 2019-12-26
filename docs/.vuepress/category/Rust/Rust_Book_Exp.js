@@ -146,7 +146,8 @@ exports.Rust_Book_Exp = (title) => {
             children: [
             '16 Fearless Concurrency/00 Foreword',
             '16 Fearless Concurrency/01 Using Threads to Run Code Simultaneously',
-            '16 Fearless Concurrency/02 Using Message Passing to Transfer Data Between Threads'
+            '16 Fearless Concurrency/02 Using Message Passing to Transfer Data Between Threads',
+            '16 Fearless Concurrency/03 Shared State Concurrency'
             ]
         }
     ]
