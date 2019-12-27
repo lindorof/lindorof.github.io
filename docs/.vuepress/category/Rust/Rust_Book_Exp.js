@@ -150,6 +150,13 @@ exports.Rust_Book_Exp = (title) => {
             '16 Fearless Concurrency/03 Shared State Concurrency',
             '16 Fearless Concurrency/04 Extensible Concurrency with the Sync and Send Traits'
             ]
+        },
+        {
+            title: '17. 面向对象',
+            collapsable: true,
+            children: [
+            '17 Object Oriented Programming Features of Rust/01 Characteristics of Object Oriented Languages'
+            ]
         }
     ]
 }
