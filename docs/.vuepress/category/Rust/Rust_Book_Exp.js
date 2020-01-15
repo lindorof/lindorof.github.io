@@ -156,7 +156,8 @@ exports.Rust_Book_Exp = (title) => {
             collapsable: true,
             children: [
             '17 Object Oriented Programming Features of Rust/01 Characteristics of Object Oriented Languages',
-            '17 Object Oriented Programming Features of Rust/02 Using Trait Objects That Allow for Values of Different Types'
+            '17 Object Oriented Programming Features of Rust/02 Using Trait Objects That Allow for Values of Different Types',
+            '17 Object Oriented Programming Features of Rust/03 Implementing an Object-Oriented Design Pattern'
             ]
         }
     ]
