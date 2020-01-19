@@ -159,6 +159,15 @@ exports.Rust_Book_Exp = (title) => {
             '17 Object Oriented Programming Features of Rust/02 Using Trait Objects That Allow for Values of Different Types',
             '17 Object Oriented Programming Features of Rust/03 Implementing an Object-Oriented Design Pattern'
             ]
+        },
+        {
+            title: '18. 模式与匹配',
+            collapsable: true,
+            children: [
+            '18 Patterns and Matching/01 All the Places Patterns Can Be Used',
+            '18 Patterns and Matching/02 Refutability Whether a Pattern Might Fail to Match',
+            '18 Patterns and Matching/03 Pattern Syntax'
+            ]
         }
     ]
 }
