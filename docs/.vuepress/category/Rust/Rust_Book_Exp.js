@@ -168,6 +168,13 @@ exports.Rust_Book_Exp = (title) => {
             '18 Patterns and Matching/02 Refutability Whether a Pattern Might Fail to Match',
             '18 Patterns and Matching/03 Pattern Syntax'
             ]
+        },
+        {
+            title: '19. 高级特征',
+            collapsable: true,
+            children: [
+            '19 Advanced Features/01 Unsafe Rust'
+            ]
         }
     ]
 }
