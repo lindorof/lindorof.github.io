@@ -173,7 +173,8 @@ exports.Rust_Book_Exp = (title) => {
             title: '19. 高级特征',
             collapsable: true,
             children: [
-            '19 Advanced Features/01 Unsafe Rust'
+            '19 Advanced Features/01 Unsafe Rust',
+            '19 Advanced Features/02 Advanced Traits'
             ]
         }
     ]
