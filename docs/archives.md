@@ -65,7 +65,7 @@ sidebarDepth: 2
 
 ### WinForm
 
-- [WinForm 多线程剖析](http://note.youdao.com/noteshare?id=d444975b458bf022b84bd45dadc607fa)
+- [WinForm 多线程剖析](/DotNet/WinForm/WinForm多线程剖析)
 
 ### 学习心得
 
