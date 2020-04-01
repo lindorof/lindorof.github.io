@@ -14,6 +14,9 @@ module.exports = {
       '@vuepress/back-to-top',
       '@vuepress/pwa'
     ],
+    markdown: {
+      lineNumbers: true
+    },
     themeConfig: {
       logo: '/img/logo.jpg',
       lastUpdated: '上次更新',

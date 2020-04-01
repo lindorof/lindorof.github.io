@@ -69,7 +69,7 @@ sidebarDepth: 2
 
 ### 学习心得
 
-- [.NET 搜索 DLL 的方式](http://note.youdao.com/noteshare?id=950dab178cc3b19d62f6a1661da072d7)
+- [.NET 搜索 DLL 的方式](/DotNet/学习心得/DotNet搜索DLL的方式)
 
 ## 网络编程
 
