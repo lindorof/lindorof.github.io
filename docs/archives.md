@@ -73,8 +73,8 @@ sidebarDepth: 2
 
 ## 网络编程
 
-- [IO - 同步 - 异步 - 阻塞 - 非阻塞](http://note.youdao.com/noteshare?id=2ebbd80337de8b8872cc1877fd4cb5c4)
-- [网络编程概念总结](http://note.youdao.com/noteshare?id=d273b77798e3e644969763f1219c76e7)
+- [UNIX网络IO模型](/网络编程/UNIX网络IO模型)
+- [网络编程概念汇总](/网络编程/网络编程概念汇总)
 
 ## 碎片
 
