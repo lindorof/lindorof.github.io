@@ -1,3 +1,8 @@
+---
+sidebar: auto
+sidebarDepth: 2
+---
+
 # UNIX网络IO模型
 
 ## 概述

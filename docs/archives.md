@@ -78,7 +78,7 @@ sidebarDepth: 2
 
 ## 碎片
 
-- [字符编码方式](http://note.youdao.com/noteshare?id=8c0775c7f4fdbca1d4961ec5a5b16fa6)
+- [字符编码方式](/碎片/字符编码方式)
 
 
 
