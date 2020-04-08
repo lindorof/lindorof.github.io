@@ -51,7 +51,7 @@ sidebarDepth: 2
 ### VC 编译
 
 - [C & C++ 程序运行时库](http://note.youdao.com/noteshare?id=72d33c8c345760397c1cfd28b7ccf7a4)
-- [函数调用约定与函数导出](http://note.youdao.com/noteshare?id=dba3e70aebdac053657705ddbd3807ba)
+- [函数调用约定与函数导出](/C++/VC编译/函数调用约定与函数导出)
 
 ### 坑爹大全
 
