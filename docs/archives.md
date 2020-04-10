@@ -45,7 +45,7 @@ sidebarDepth: 2
 
 - [从内存模型分析 C++ 的面向对象机制](http://note.youdao.com/noteshare?id=e6476c13ea34ac334f40ddd6254c186c)
 - [对象切片的构造与析构法则](http://note.youdao.com/noteshare?id=bf6de91e395684cac1d7400b64178366)
-- [多维数组 & 多维指针](http://note.youdao.com/noteshare?id=300e91bcede7246268f2731e0e647477)
+- [多维数组 & 多维指针](./C++/学习心得/多维数组&多维指针)
 - [拷贝构造函数](http://note.youdao.com/noteshare?id=49e7951538342003800dfcf751827083)
 
 ### VC 编译
