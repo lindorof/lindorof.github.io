@@ -44,22 +44,14 @@ sidebarDepth: 2
 ### 学习心得
 
 - [从内存模型分析 C++ 的面向对象机制](http://note.youdao.com/noteshare?id=e6476c13ea34ac334f40ddd6254c186c)
-- [对象切片的构造与析构法则](http://note.youdao.com/noteshare?id=bf6de91e395684cac1d7400b64178366)
-- [多维数组 & 多维指针](./C++/学习心得/多维数组&多维指针)
-- [拷贝构造函数](./C++/学习心得/拷贝构造函数)
+- [对象切片的构造与析构法则](/C++/学习心得/对象切片的构造与析构法则)
+- [多维数组 & 多维指针](/C++/学习心得/多维数组&多维指针)
+- [拷贝构造函数](/C++/学习心得/拷贝构造函数)
 
 ### VC 编译
 
 - [C & C++ 程序运行时库](/C++/VC编译/C&C++程序运行时库)
 - [函数调用约定与函数导出](/C++/VC编译/函数调用约定与函数导出)
-
-### 坑爹大全
-
-- [2011-12-20](http://note.youdao.com/noteshare?id=cd90a875df6d33a9e311150063c84b44)
-- [2015-01-20](http://note.youdao.com/noteshare?id=d4e0ea995c7a055551afb581b43b5249)
-- [2015-11-03](http://note.youdao.com/noteshare?id=aebd5036972966d0376500dbfa8d6c4e)
-- [2015-11-05](http://note.youdao.com/noteshare?id=78bcd43a6ddeb6e6236a9c80419117b8)
-- [2016-11-09](http://note.youdao.com/noteshare?id=b325312d45c0a4baa52fa8c4792e94cd)
 
 ## .NET
 
