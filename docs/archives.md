@@ -39,6 +39,11 @@ sidebarDepth: 2
 
 - [Qt-for-macOS](/Qt/Qt-for-macOS)
 
+## libuv
+
+- [libuv-安装编译](/libuv/libuv-安装编译)
+- [libuv-queue-学习心得](/libuv/libuv-queue-学习心得)
+
 ## C++
 
 ### 学习心得
