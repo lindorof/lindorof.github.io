@@ -31,6 +31,10 @@ sidebarDepth: 2
 
 
 
+## Go
+
+- [Go学习心得](/Go/Go_Learn_Exp/)
+
 ## Rust
 
 - [「RustBook」学习心得](/Rust/Rust_Book_Exp/)

@@ -1,4 +1,5 @@
 let { Rust_Book_Exp } = require ('./category/Rust/Rust_Book_Exp.js')
+let { Go_Learn_Exp } = require ('./category/Go/Go_Learn_Exp.js')
 
 module.exports = {
     base: '/',
@@ -34,7 +35,8 @@ module.exports = {
         { text: 'GitHub', link: 'https://github.com/lindorof' }
       ],
       sidebar: {
-        '/Rust/Rust_Book_Exp/': Rust_Book_Exp('Rust_Book_Exp')
+        '/Rust/Rust_Book_Exp/': Rust_Book_Exp('Rust_Book_Exp'),
+        '/Go/Go_Learn_Exp/': Go_Learn_Exp('Go_Learn_Exp')
       },
       sidebarDepth: 0,
       displayAllHeaders: true,
